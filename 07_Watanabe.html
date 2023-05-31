@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <title>渡邉晃司</title>
+    <link rel="stylesheet" type="text/css" href="css/a.css">
+    <link rel="stylesheet" type="text/css" href="css/c.css">
+    <link rel="stylesheet" type="text/css" href="css/fontsize.css">
+    <link rel="stylesheet" type="text/css" href="css/imagesize.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  	<script src="./js/include.js"></script>
+  	<script src="./js/langSet.js"></script>
+</head>
+
+<body>
+    <div class="ArtContent">
+      <main>
+    	<div class="ArtUnifiedContent">
+    		<p class="txtdeco" style="text-align:left;"><b>Learning SAT/SMT Solving</b></p>
+    		<div class="researchfigures"><img src="/img/NII_Openhouse_watanabe2.png" oncontextmenu="return false;"></img></div>
+    		<br>
+      		<figure><img src="/img/IMG_1786.jpg" oncontextmenu="return false;" style="width: 20vh;"><figcaption><p class="txt3">渡邉晃司</p></figcaption></figure>
+      		<ul>
+      		<li><p class="txt1"><b>研究概要</b></p>
+      		<p class="txt1">Computing a satisfiable assignment of a propositional formula is a core problem in many applications, ranging from AI to engineering and scientific research. This work proposes a novel method for finding a model of a given SAT instance by combining a Graph Neural Network (GNN) and MatSat, a differentiable incomplete SAT solver. The proposed method, called GNN-MatSat, utilizes continuous optimization techniques to minimize a differentiable cost function, with initialization by GNN, to search for a model in vector spaces. MatSat is a unique solver that can handle real values and continuously solve SAT instances. However, it is sensitive to initial values, and some of its performance characteristics still need to be better understood. Additionally, its scalability for large instances has yet to be evaluated. In this work, we aim to enhance MatSat by initializing it with GNN and to provide a stable continuous solver. Experimental results indicate that GNN-MatSat outperforms state-of-the-art (SOTA) solvers on random SAT benchmarks and some structured benchmarks and efficiently solves instances that are hard to solve with existing solvers. Moreover, our approach is more scalable and stable than SOTA solvers for large random instances. These results demonstrate the effectiveness of our hybrid approach for SAT, which combines deep learning techniques and continuous optimization and takes full advantage of GPU acceleration.</p></li>
+      		<li><p class="txt1"><b>研究キーワード</b></p>
+      		<i><p class="txt1">Neuro-Symbolic AI, Combinatorial Problem, Knowledge Acquisition, Differentiable Logic, SAT/SMT solver</i></p></li>
+			<li><p class="txt1"><b>参考（推薦）文献</b></p>
+			<p class="txt1"><a href="https://confit.atlas.jp/guide/event/jsai2022/subject/4F3-OS-8b-03/detail">https://confit.atlas.jp/guide/event/jsai2022/subject/4F3-OS-8b-03/detail</a><br>
+<a href="https://arxiv.org/abs/2212.03374">https://arxiv.org/abs/2212.03374</a></p></li>
+    		</ul>
+    	</div>
+      </main>
+    </div>
+</body>
+</html>

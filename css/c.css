@@ -1,0 +1,117 @@
+body{
+    display: flex;
+    min-height: 100vh;
+}
+
+.NavigationMenu{
+    width: 15vw; /*Viewport-percentage Lengths: vw, vh 本来は親要素に対しての幅しか指定できないというルールを破るので注意*/
+    text-align: center;
+    background-color: #f5ce2f; /* #1e90ff  濃い青 #101841  */
+    color: #000000;
+}
+
+.NavigationMenu li {
+   list-style: none;
+}
+
+.Content{
+   width: 85vw;
+   background-color: #ffffff; /* #90ee90 */
+   text-align: center;
+   margin-left: 5px;
+   margin-right: 5px;
+}
+
+.ArtContent{
+   width: 85vw;
+   text-align: center;
+   margin-left: 5px;
+   margin-right: 5px;
+}
+
+.ImageBox {
+	width: 40%;
+	height: auto;
+	background-color: #000000;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin: 5px 2px 2px 5px;
+}
+
+
+main{
+    display: flex;
+    min-height: 100vh;
+    margin: 5px 0 5px 0;
+}
+.LeftContent{
+	width: 25vw;
+    background-color: #ffffff; /* #90ee90 */
+    text-align: center;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+.LeftContentNarrow{
+	width: 10vw;
+    background-color: #ffffff;
+    text-align: center;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+.CenterContent{
+	width: 25vw;
+    background-color: #ffffff;
+    text-align: center;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+.RightContent{
+	width: 25vw;
+    background-color: #ffffff;
+    text-align: center;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+.CenterAndRightContent{
+	width: 50vw;
+    background-color: #ffffff;
+    text-align: center;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+.CenterAndRightContentWide{
+	width: 65vw;
+    background-color: #ffffff;
+    text-align: center;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+.UnifiedContent{
+	width: 85vw;
+    background-color: #ffffff;
+    text-align: center;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+.ArtUnifiedContent{
+	width: 85vw;
+    text-align: center;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+.TableWidth{
+  width: auto;
+}
+.figure{
+	text-align:center;
+}
+.figcaption{
+	font:2vh;
+}

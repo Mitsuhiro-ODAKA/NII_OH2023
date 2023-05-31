@@ -1,0 +1,66 @@
+.txt1{
+  font-size: 3vh;
+  text-align:left;
+}
+.txt2{ /* "Current Position" etc.*/
+  font-size: 6vh; /* 144da0 */
+}
+.txt3{
+  font-size: 1.5vw;
+  text-align:center;
+}
+.txt4{
+  font-size: 6vmax;
+}
+.txt5{ /* table's head color */
+  font-size: 1vh;
+  color: #70acce;
+}
+.txt6{
+  font-size: 1.5vh;
+}
+.txt7{
+  color: #f5ce2f; /*  */
+  background-color: #000000; /*  */
+  font-size: 1.5vh;
+}
+.txt_navi{
+  color: #000000;
+  background-color: #f5ce2f; /* â©êF#ffe200 */
+  font-size: 1vw;
+  font-weight: 700;
+  margin: 0.5px;
+  border: thin solid #c3a02f;
+}
+
+.txtTitle{
+  background-color: #000000;
+  color: #f5ce2f; /*  */
+  text-align: center;
+  font-size: 1.5vw;
+  margin: 0px;
+}
+
+a:link {
+ color: #70acce;
+ text-decoration: underline;
+}
+
+a:visited {
+ color: #70acce;
+ text-decoration: underline;
+}
+
+a:hover {}
+
+a:active {
+ color: #f7dd16;
+ text-decoration: underline;
+}
+
+.txtdeco{
+	font-size:6vh;
+	color: #f5ce2f;
+	width:100%;
+	text-shadow: 2px 3px 2px rgb(61 70 70);
+}

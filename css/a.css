@@ -1,0 +1,63 @@
+html{
+  font-size: 1.75vh;
+}
+img{
+  width: 100%;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 0px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    border: 0px;
+}
+p {
+  background-color: black;
+  color: black;
+  font-family: "ヒラギノ丸ゴ ProN W3", "Hiragino Maru Gothic ProN W3", "游ゴシック", "Yu Gothic", "YuGothic", "游ゴシック体", "メイリオ", "Meiryo", "Meiryo UI", "Segoe UI", "Arial", sans-serif;
+  font-weight: 500;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+/* PC用のcss */
+@media print, screen and (min-width: 767px) { /*ウィンドウ幅が767px以上の場合に適用*/
+p {
+background-color: #ffffff; /* #00FFFF 青色（確認時はこれをONにする）*/
+}
+}
+
+/* タブレット用のcss */
+@media screen and (max-width: 767px) { /*ウィンドウ幅が最大767pxまでの場合に適用*/
+p {
+background-color: #ffffff; /* #FF0000 赤色（確認時はこれをONにする）*/
+}
+}
+
+/* スマホ用のcss */
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+p {
+background-color: #ffffff; /* #00FF00 緑色（確認時はこれをONにする）*/
+}
+#contents #l_contents {
+width: auto;
+float: none;
+}
+#contents #r_contents {
+width: auto;
+float: none;
+}
+}
+
+/* 画像やコンテンツの横幅を可変にする */
+img {
+max-width: 100% ;
+height: auto;
+}
+#menu {
+max-width: 1000px;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+}

@@ -1,0 +1,24 @@
+.submenu-trigger{
+      position:relative;
+      width:10vw;
+      line-height:20px;
+    }
+    .submenu-trigger > ul,
+    .submenu2-trigger > ul{
+      display:none;
+    }
+    .submenu-trigger:hover > ul,
+    .submenu2-trigger:hover > ul{
+      display:block;
+    }
+    .submenu-trigger > ul{
+      background-color:#ffffff;
+    }
+    .submenu2-trigger > ul{
+      position:absolute;
+      left:120px;
+      top:20px;
+      background-color:#aaa;
+      min-height:160px;
+      width:120px;
+    }
